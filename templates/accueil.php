@@ -41,10 +41,10 @@
           <p class="subtitle">Client</p>
       	</a>
         </article>
-        <article class="tile is-child notification is-info">
+        <article class="tile is-child notification">
         <a href="https://outlook.live.com/owa/" target="_blank">
-          <img class="icon_accueil" src="../public/img/icon_outlook.png">
-          <p class="subtitle">Espace membres</p>
+          <img class="icon_accueil" src="../public/img/icon_membre.png">
+          <p class="subtitle">Espace membre</p>
       	</a>
         </article>
       </div>
