@@ -1,0 +1,100 @@
+.box{
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 240px;
+}
+
+.notification{
+	text-align: center;
+}
+
+.logo{
+	margin-top: 8%;
+	width: 300px;
+
+}
+
+.hgauche{
+	height: 300px;
+}
+
+nav{
+	height: 100px;
+}
+
+table{
+	width: 100%;
+}
+
+p{
+	text-align: center;
+}
+
+.buttonDeco{
+	margin-left: 70%;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+
+html{
+	background: url("../img/fond.png");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+
+
+}
+
+.container{
+	width: 250px;
+	height: 250px;
+}
+
+.notification{
+	width: 100%;
+	height: 100%;
+}
+
+.tile{
+	height: 600px;
+}
+
+.icon{
+	width: 150px;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logoCLMR{
+	margin-left: 2%;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 200px;
+}
+
+.bienvenue{
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	width: 150px;
+}
+
+.navbar{
+
+	box-shadow: 5px 5px 5px black;
+
+}
+
+.caseMenu{
+	margin-top: 2%;
+	width: 1200px;
+}
+
+.icon_accueil{
+	width: 200px;
+}
