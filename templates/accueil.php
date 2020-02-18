@@ -38,7 +38,7 @@
         <article class="tile is-child notification is-success">
         <a href="https://mail.google.com/mail/u/0/" target="_blank">
           <img class="icon_accueil" src="../public/img/icon_client.png">
-          <p class="subtitle">Client</p>
+          <p class="subtitle">Clients</p>
       	</a>
         </article>
         <article class="tile is-child notification">
@@ -53,7 +53,7 @@
   <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-primary">
           <img class="icon_accueil" src="../public/img/icon_facture.png">
-          <p class="subtitle">Facture</p>
+          <p class="subtitle">Factures</p>
         </article>
         <article class="tile is-child notification is-warning">
         <a href="calendrier/calendrier.php">
