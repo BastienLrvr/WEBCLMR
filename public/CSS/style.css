@@ -3,7 +3,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
-	height: 240px;
+	height: auto;
 }
 
 .notification{
@@ -20,6 +20,9 @@
 	height: 300px;
 }
 
+.input{
+	width: 200px;
+}
 nav{
 	height: 100px;
 }
@@ -37,6 +40,10 @@ p{
 	margin-top: auto;
 	margin-bottom: auto;
 
+}
+
+body{
+	background: url("../img/fond.png");
 }
 
 html{
@@ -98,3 +105,4 @@ html{
 .icon_accueil{
 	width: 200px;
 }
+

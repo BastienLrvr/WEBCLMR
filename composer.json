@@ -13,7 +13,11 @@
         "symfony/framework-bundle": "5.0.*",
         "symfony/orm-pack": "^1.0",
         "symfony/security-bundle": "5.0.*",
+<<<<<<< HEAD
         "symfony/twig-bundle": "^5.0",
+=======
+        "symfony/twig-bundle": "5.0.*",
+>>>>>>> 5621dea0e1788793b76a59a8b9aadea1d4267290
         "symfony/validator": "5.0.*",
         "symfony/yaml": "5.0.*"
     },

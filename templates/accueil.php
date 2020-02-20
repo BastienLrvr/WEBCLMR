@@ -1,7 +1,11 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<link href="../public/CSS/bulma.css" rel="stylesheet">
+  <link href="../public/CSS/bulma.min.css" rel="stylesheet">
     <link href="../public/CSS/style.css" rel="stylesheet">
     <meta charset="UTF-8">
 </head>
@@ -10,7 +14,7 @@
 	<nav class="navbar is-mobile">
 		<img class="logoCLMR" src="../public/img/Logo_CLMR.png"/>
 		<div class="bienvenue">
-			<p class="subtitle"> Bienvenue (id) </p>
+			<p class="subtitle"><?php echo "Bienvenue ", $_SESSION['username']; ?>  </p>
 		</div>
 	<div class="buttonDeco is-mobile">
 		<button class="button is-link">Déconnexion</button>
@@ -36,13 +40,13 @@
       </div>
       <div class="tile is-parent is-vertical">
         <article class="tile is-child notification is-success">
-        <a href="https://mail.google.com/mail/u/0/" target="_blank">
+        <a href="client/client.php" target="_blank">
           <img class="icon_accueil" src="../public/img/icon_client.png">
           <p class="subtitle">Clients</p>
       	</a>
         </article>
         <article class="tile is-child notification">
-        <a href="https://outlook.live.com/owa/" target="_blank">
+        <a href="../chat-p3x/index.php" target="_blank">
           <img class="icon_accueil" src="../public/img/icon_membre.png">
           <p class="subtitle">Espace membre</p>
       	</a>
