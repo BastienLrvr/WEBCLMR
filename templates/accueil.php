@@ -17,7 +17,7 @@
 			<p class="subtitle"><?php echo "Bienvenue ", $_SESSION['username']; ?>  </p>
 		</div>
 	<div class="buttonDeco is-mobile">
-		<button class="button is-link">Déconnexion</button>
+		<a href="../Auth/logout.php"><input class="button is-info" type="button" value="Déconnexion"></a>
 	</div>
 	</nav>
 	</br>
